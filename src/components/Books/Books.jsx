@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdOutlineDriveFileRenameOutline } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Books = ({ booksData }) => {
   return (
@@ -10,7 +11,8 @@ const Books = ({ booksData }) => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  justify-items-center">
         {booksData.map((singleBook) => (
-          <div key={singleBook.bookId} className="card bg-base-100 w-96 border-2 border-gray-500 shadow-sm">
+         <Link to={`/bookdetails/${singleBook.bookId}`} key={singleBook.bookId} className="card w-80 bg-base-100 shadow-xl">
+           <div key={singleBook.bookId} className="card bg-base-100 w-96 border-2 border-gray-500 shadow-sm">
             <figure className="px-4 pt-4 bg-gray-100">
               <img
                 src={singleBook.image}
@@ -26,7 +28,7 @@ const Books = ({ booksData }) => {
                 <button className="btn btn-primary">Buy Now</button>
               </div>
             </div>
-          </div>
+          </div></Link>
         ))}
       </div>
 

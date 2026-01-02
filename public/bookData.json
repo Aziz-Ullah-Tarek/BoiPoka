@@ -137,17 +137,5 @@
         "image": "https://i.ibb.co/xS8YvxL/81m-CE-uclx-L-UF1000-1000-QL80.jpg",
         "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
         "totalPages": 310
-  },{
-    "bookId": 1,
-    "bookName": "Example Book One",
-    "author": "Author A",
-    "image": "https://via.placeholder.com/124x166",
-    "price": 9.99,
-    "tags": ["fiction", "bestseller"],
-    "rating": 4.5,
-    "category": "Fiction",
-    "yearOfPublishing": 2020,
-    "publisher": "Publisher A",
-    "totalPages": 320
   }
 ]
